@@ -1,0 +1,2 @@
+# ymgk yorgunluk tespiti
+ yorgunluktespiti
