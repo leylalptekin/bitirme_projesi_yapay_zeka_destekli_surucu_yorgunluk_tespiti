@@ -1,2 +1,2 @@
-# ymgk yorgunluk tespiti
- yorgunluktespiti
+
+ 
