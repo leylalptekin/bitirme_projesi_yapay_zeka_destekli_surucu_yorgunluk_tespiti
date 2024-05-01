@@ -1,4 +1,5 @@
 Proje Özeti
+
 Günümüz dünyasında gelişen teknolojiye ayak uydurmak her alanda bir zorunluluk arz etmiştir. 
 Gelişen teknolojiler sayesinde bu hıza ayak uydurmak için bu projemizi yapmaya karar verdik. 
 Bu projenin amacı ise günümüzde, günde binlerce trafik kazası meydana gelmektedir ve bu kazaların büyük çoğunluğu aracı süren kişinin(şoför) yorgunluğuna bağlı olarak gerçekleşmektedir. 
