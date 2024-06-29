@@ -1,4 +1,4 @@
-Proje Özeti
+       Proje Özeti
 
 Günümüz dünyasında gelişen teknolojiye ayak uydurmak her alanda bir zorunluluk arz etmiştir. 
 Gelişen teknolojiler sayesinde bu hıza ayak uydurmak için bu projemizi yapmaya karar verdik. 
