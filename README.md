@@ -10,7 +10,7 @@ ABD Ulusal Karayolları Trafik Güvenliği Dairesi (NHTSA) verilerine göre yorg
 Ülkemizde yapılan bir  araştırmaya göre, kendileriyle mülakat yapılan ağır vasıta sürücüleri en önemli kaza nedenleri olarak, alkollü iken araç kullanmak(%23.5), hatalı sollama yapmak (%22), yorgun ve uykusuz araç kullanmak (% 17.1), yeterli sürücülük deneyimi olmamak(%16.2) ve trafiğin akışına göre hızı ayarlayamamak gibi sürücü hatalarını belirtmişlerdir(Sönmez, 1999) 
                            
                                                                               
-                                                               
+                                                                
                          
                     
         
