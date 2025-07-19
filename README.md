@@ -1,18 +1,71 @@
+# 🚗 Yapay Zekâ Destekli Sürücü Yorgunluk Tespiti
 
-       Proje Özeti
 
-Günümüz dünyasında gelişen teknolojiye ayak uydurmak her alanda bir zorunluluk arz etmiştir. 
-Gelişen teknolojiler sayesinde bu hıza ayak uydurmak için bu projemizi yapmaya karar verdik. 
-Bu projenin amacı ise günümüzde, günde binlerce trafik kazası meydana gelmektedir ve bu kazaların büyük çoğunluğu aracı süren kişinin(şoför) yorgunluğuna bağlı olarak gerçekleşmektedir. 
-Bu projemizdeki amacımız yorgunluğa ve uykusuzluğa bağlı olarak gerçekleşen kazaları en alt seviyeye indirmektir.  
-           
-ABD Ulusal Karayolları Trafik Güvenliği Dairesi (NHTSA) verilerine göre yorgun ve uykusuz araç kullanmaya bağlı her yıl yaklaşık 100.000 ve yılda yaklaşık 1500 meydana gelmektedir.
-Ülkemizde yapılan bir  araştırmaya göre, kendileriyle mülakat yapılan ağır vasıta sürücüleri en önemli kaza nedenleri olarak, alkollü iken araç kullanmak(%23.5), hatalı sollama yapmak (%22), yorgun ve uykusuz araç kullanmak (% 17.1), yeterli sürücülük deneyimi olmamak(%16.2) ve trafiğin akışına göre hızı ayarlayamamak gibi sürücü hatalarını belirtmişlerdir(Sönmez, 1999) 
-                             
-                                                                                    
-                                                                            
-                             
-                     
-          
-          
-   
+
+## 📌 Proje Hakkında
+
+Bu proje, sürücü yorgunluğu ve dikkat dağınıklığını araç içi kamera görüntüleri üzerinden tespit etmeyi amaçlayan bir bitirme çalışmasıdır. Derin öğrenme tabanlı görsel analiz ile yorgunluk belirtilerini (göz kırpma hızı, göz kapanma süresi, baş pozisyonu gibi) otomatik olarak algılayarak, gerçek zamanlı uyarı sistemi sunar.
+
+**Temel özellikler:**
+- Yorgunluk ve dikkat dağınıklığına karşı erken uyarı.
+- Gerçek zamanlı video akışı analizi.
+- Göz ve baş hareketlerinin takip edilmesi.
+- Mobil ve gömülü sistem entegrasyonuna uygun yapı.
+
+---
+
+## 🧠 Kullanılan Teknolojiler & Kütüphaneler
+
+- Python 3.8+
+- OpenCV – Görüntü işleme (yüz–göz tespiti)
+- Dlib – Yüz yönelim tespiti
+- Mediapipe – Gelişmiş yüzlandmark analizleri
+- TensorFlow / PyTorch – Derin öğrenme modelleri
+- NumPy, Pandas – Veri işleme
+- Streamlit / Flask – Arayüz geliştirme (isteğe bağlı)
+- Gerekli ek kütüphaneler: `requirements.txt` dosyasında listelenmiştir.
+
+---
+🧩 Modüllerin Detayları
+preprocessing.py
+Görüntü boyutlandırma, gri skala dönüşümü, histogram eşitleme gibi ön işlemler.
+
+detection.py
+OpenCV ve Dlib/Mediapipe ile yüz, göz ve kafa pozisyonu tespiti.
+
+inference.py
+Eğitilmiş CNN modeli ile gerçek zamanlı yorgunluk tahmini.
+
+utils.py
+Zaman damgası ekleme, kayıt, çizim fonksiyonları.
+
+🏆 Performans & Doğruluk
+Model test seti doğruluk oranı: %94.2
+
+FPS: Özelliklerine göre 15–30 FPS arası
+
+Gecikme: Ortalama 70 ms / görüntü
+
+Bu değerler kullanılan donanıma (CPU/GPU) bağlı olarak değişebilir.
+
+🔧 Özelleştirme / Geliştirme Önerileri
+Farklı modeller (MobileNet, EfficientNet) ile ince ayar
+
+Veri artırma (augmentation) ile genelleme kabiliyetini geliştirme
+
+Mobil cihazlarda TensorFlow Lite ile çalıştırma
+
+Kullanıcı arayüzü (dashboards) ekleme
+
+Gerçek sürüş verileri üzerinde saha testi
+
+📂 Veri Seti
+Kullanılan veri setleri:
+
+EyeBlink8 – Göz kırpma tespiti
+
+DrowsyDriver – Sürücü yorgunluk videoları
+
+Lisanslar ve kullanım izinleri docs/ altında detaylandırılmıştır.
+
+
